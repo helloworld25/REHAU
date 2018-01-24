@@ -1,0 +1,202 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+abbr, b, strong, i, em,
+cite, code, dfn, kbd, mark,
+s, u, del, ins,
+samp, small, sub, sup,
+label, legend, caption,
+span, address, p, a,
+h1, h2, h3, h4, h5, h6,
+dt, dd, li,
+figure, figcaption,
+table, th, td,
+q, blockquote {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 1px;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+}
+
+input[type="text"] {
+    line-height: normal;
+}
+
+cite,
+dfn,
+var {
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6,
+ul, ol, dl,
+p, table, address,
+figure, hr, pre,
+blockquote {
+    margin-bottom: 0.6rem;
+}
+
+li, dt, dd {
+    margin-bottom: 0.4rem;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    padding-left: 2.4em;
+}
+
+q {
+    quotes: '"' '"' "“" "”";
+}
+
+blockquote {
+    padding: 1.2em 1.6em;
+    background-color: #fbfbfb;
+    quotes: "“" "”" "‘" "’";
+    border-left: 0.4em solid #d0d0d0;
+}
+
+q::before {
+    content: open-quote;
+}
+q::after {
+    content: close-quote;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    padding-top: 0.6rem;
+    padding-bottom: 0.1rem;
+    margin-bottom: 0.45rem;
+    max-width: 100%;
+    font-weight: normal;
+    line-height: 1.15;
+
+    &:first-child, &+& {
+        padding-top: 0;
+    }
+
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h5 {
+    font-size: 1.4em;
+}
+
+h6 {
+    font-size: 1.2em;
+}
+
+ul { 
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+ol { 
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+ul ul, 
+ol ul { 
+    list-style-type: circle;
+}
+
+ol ol, 
+ul ol {
+    list-style-type: square;
+}
+
+ul ul, 
+ol ul,
+ol ol, 
+ul ol {
+    padding-left: 2.4em;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+table, th, td {
+    border-style: solid;
+    border-width: 1px;
+}
+
+th, td {
+    padding: 0.6em 0.9em;
+}
+
+th {
+    text-align: left;
+    font-weight: bold;
+}

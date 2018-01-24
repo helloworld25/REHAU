@@ -1,0 +1,19 @@
+# Desktop
+Chrome >= 35
+Firefox >= 31
+IE >= 9
+Edge > 0
+Safari >= 6
+Opera >= 21
+
+# Mobile
+Android >= 4
+iOS >= 6
+IE_MOB > 0
+BlackBerry > 0
+ChromeAndroid > 0
+FirefoxAndroid > 0
+UCAndroid > 0
+OperaMobile > 0
+QQAndroid > 0
+Samsung > 0

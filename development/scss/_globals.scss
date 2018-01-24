@@ -1,0 +1,18 @@
+// For global variables (like transition style for example)
+
+$transition-style: '0.31s ease-in-out';
+
+$text-general-margin-elements: 'h1, h2, h3, h4, h5, h6,
+                                ul, ol, dl,
+                                p, address,
+                                figure, hr, pre,
+                                blockquote';
+
+$list-item-elements: 'li, dt, dd';
+
+/*
+  Example:
+  #{$text-general-margin-elements} {
+      margin-bottom: 13px;
+  }
+*/

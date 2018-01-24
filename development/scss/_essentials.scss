@@ -1,0 +1,76 @@
+@import 'reset';
+@import 'init';
+
+// FOR FONT FACES AND BASIC STYLING
+
+body {
+    /*position: relative;
+    left: -5px;
+    background: url(../images/template.png) center top no-repeat;
+    opacity: 0.6;
+    height: 8000px;*/
+}
+
+::selection {
+    background: #f36240;
+    color: #fff;
+}
+
+$basicWidth: 1145px;
+$paddingOnEachSide: 30px;
+$finalWidth: $basicWidth + 2 * $paddingOnEachSide;
+
+.page {
+    background-color: #e1f0f8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0;
+}
+
+.placeholder {
+    color: #aaa;
+}
+
+.clearfix::after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+/*
+.screen-reader-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.hidden-form-element {
+	width: 0.1px;
+	height: 0.1px;
+	position: absolute;
+	z-index: -1;
+    overflow: hidden;
+    opacity: 0;
+}
+*/
+
+.outer-wrap {
+    /*width: 100%;*/
+    min-width: 320px;
+    /*min-width: $finalWidth;*/
+}
+
+.inner-wrap {
+    max-width: $finalWidth;
+    /*width: $finalWidth;*/
+    margin: 0 auto;
+    padding: 0 $paddingOnEachSide;
+}
+
+
